@@ -7,6 +7,18 @@
     <groupId>cn.neilz.learning</groupId>
     <artifactId>algorithm-practice</artifactId>
     <version>1.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <packaging>jar</packaging>
     <name>algorithm-practice</name>
 

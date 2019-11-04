@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -52,7 +53,7 @@ public class cycleLinkedList {
             line = in.readLine();
             int pos = Integer.parseInt(line);
 
-            boolean ret = new Solution().hasCycle(head, pos);
+            boolean ret = new Solution().hasCycle(head);
 
             String out = booleanToString(ret);
 
